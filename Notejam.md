@@ -1,13 +1,26 @@
 # Notejam Markdown
 
 ---
-title: Bank example
+# Class Diagram
 ---
 
 ```Mermaid
 classDiagram
-    class BankAccount
-    BankAccount : +String owner
-    BankAccount : +Bigdecimal balance
-    BankAccount : +deposit(amount)
-    BankAccount : +withdrawal(amount)
+    class User
+    User : ID
+    User : Email
+    User : Password
+    User : Authenticate ()
+```
+
+---
+---
+
+```Mermaid
+classDiagram
+    class Note
+    Note : +String owner
+    Note : +Bigdecimal balance
+    Note : +deposit(amount)
+    Note : +withdrawal(amount)
+
