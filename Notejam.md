@@ -19,8 +19,8 @@ classDiagram
 ```Mermaid
 classDiagram
     class Note
-    Note : +String owner
-    Note : +Bigdecimal balance
-    Note : +deposit(amount)
-    Note : +withdrawal(amount)
+    Note : Create
+    Note : Delete
+    Note : Edit
+    Note : 
 
